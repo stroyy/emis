@@ -1,0 +1,107 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "未初始化变量 EMIS::Manager::id。始终初始化成员变量(type.6)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/TEMP/emis/manager.cpp"
+                },
+                "region": {
+                  "startLine": 31,
+                  "startColumn": 10,
+                  "endLine": 31,
+                  "endColumn": 10
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EMIS::Manager::{ctor}",
+                  "decoratedName": "??0Manager@EMIS@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "EMIS::Manager::id"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "未初始化变量 EMIS::Manager::perm。始终初始化成员变量(type.6)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/TEMP/emis/manager.cpp"
+                },
+                "region": {
+                  "startLine": 31,
+                  "startColumn": 10,
+                  "endLine": 31,
+                  "endColumn": 10
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EMIS::Manager::{ctor}",
+                  "decoratedName": "??0Manager@EMIS@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "EMIS::Manager::perm"
+          }
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.33.31630.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///D:/TEMP/emis/manager.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "19cc441aa1e58830d30e9ba8061fb9646ca12cfc65d1c44b39d9518f7960f74a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/temp/emis/manager.h"
+          },
+          "hashes": {
+            "sha-256": "1d3833b959071e39932c6e55b9af15df3b6f0f29bd59ed4ce21c6af5b3bd8b14"
+          }
+        }
+      ]
+    }
+  ]
+}

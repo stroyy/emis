@@ -1,0 +1,59 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.33.31630.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///d:/temp/emis/employ_daofile_impl.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "b55e63c44c0d362235f1509d1a99c08cbc0267325dd14e9dcfc41d214bf43778"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/temp/emis/employ_daofile_impl.h"
+          },
+          "hashes": {
+            "sha-256": "1fdb5c5089e41d776b5f6d9fe72cf09eccd1aa100378b93819dfc398d4c6b088"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/temp/emis/employdao.h"
+          },
+          "hashes": {
+            "sha-256": "f766998331561355257c7485a31dd26809a11989f4d041eecb91feaa0bbc98cb"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/temp/emis/employ.h"
+          },
+          "hashes": {
+            "sha-256": "c0870e0468e350a67aed0dc36a3d0fba88927c3f57ba21bcb68454d69caa1f48"
+          }
+        }
+      ]
+    }
+  ]
+}

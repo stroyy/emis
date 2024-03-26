@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Header Files\业务子系统">
+      <UniqueIdentifier>{6d3a4187-d719-4d1d-8013-2462ecc4604e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\业务子系统">
+      <UniqueIdentifier>{cd438841-65c6-444a-be61-69b45a6cb6bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\管理子系统">
+      <UniqueIdentifier>{9b4da4d8-fa41-484c-930a-682c3657d99c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\管理子系统">
+      <UniqueIdentifier>{63ff5f8e-2556-4f34-8258-c158b921f2c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\逻辑对象">
+      <UniqueIdentifier>{240e6cd7-89aa-42b7-b8e4-7ff4030627c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\逻辑对象">
+      <UniqueIdentifier>{ec2adbc4-5ae3-4479-bfcd-80bb37d5fec4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="serverviewconsoleimpl.cpp">
+      <Filter>Source Files\业务子系统</Filter>
+    </ClCompile>
+    <ClCompile Include="mainmenu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="service_impl.cpp">
+      <Filter>Source Files\业务子系统</Filter>
+    </ClCompile>
+    <ClCompile Include="managerdaofileimpl.cpp">
+      <Filter>Source Files\管理子系统</Filter>
+    </ClCompile>
+    <ClCompile Include="managerserviceimpl.cpp">
+      <Filter>Source Files\管理子系统</Filter>
+    </ClCompile>
+    <ClCompile Include="managerviewconsoleimpl.cpp">
+      <Filter>Source Files\管理子系统</Filter>
+    </ClCompile>
+    <ClCompile Include="manager.cpp">
+      <Filter>Source Files\逻辑对象</Filter>
+    </ClCompile>
+    <ClCompile Include="department.cpp">
+      <Filter>Source Files\逻辑对象</Filter>
+    </ClCompile>
+    <ClCompile Include="department_daofile_impl.cpp">
+      <Filter>Source Files\业务子系统</Filter>
+    </ClCompile>
+    <ClCompile Include="employ.cpp">
+      <Filter>Source Files\逻辑对象</Filter>
+    </ClCompile>
+    <ClCompile Include="employ_daofile_impl.cpp">
+      <Filter>Source Files\业务子系统</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="serverview.h">
+      <Filter>Header Files\业务子系统</Filter>
+    </ClInclude>
+    <ClInclude Include="serverviewconsoleimpl.h">
+      <Filter>Header Files\业务子系统</Filter>
+    </ClInclude>
+    <ClInclude Include="mainmenu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="service.h">
+      <Filter>Header Files\业务子系统</Filter>
+    </ClInclude>
+    <ClInclude Include="service_impl.h">
+      <Filter>Header Files\业务子系统</Filter>
+    </ClInclude>
+    <ClInclude Include="manager.h">
+      <Filter>Header Files\逻辑对象</Filter>
+    </ClInclude>
+    <ClInclude Include="managerdao.h">
+      <Filter>Header Files\管理子系统</Filter>
+    </ClInclude>
+    <ClInclude Include="managerdaofileimpl.h">
+      <Filter>Header Files\管理子系统</Filter>
+    </ClInclude>
+    <ClInclude Include="managerservice.h">
+      <Filter>Header Files\管理子系统</Filter>
+    </ClInclude>
+    <ClInclude Include="managerserviceimpl.h">
+      <Filter>Header Files\管理子系统</Filter>
+    </ClInclude>
+    <ClInclude Include="managerview.h">
+      <Filter>Header Files\管理子系统</Filter>
+    </ClInclude>
+    <ClInclude Include="managerviewconsoleimpl.h">
+      <Filter>Header Files\管理子系统</Filter>
+    </ClInclude>
+    <ClInclude Include="department.h">
+      <Filter>Header Files\逻辑对象</Filter>
+    </ClInclude>
+    <ClInclude Include="department_dao.h">
+      <Filter>Header Files\业务子系统</Filter>
+    </ClInclude>
+    <ClInclude Include="department_daofile_impl.h">
+      <Filter>Header Files\业务子系统</Filter>
+    </ClInclude>
+    <ClInclude Include="employ.h">
+      <Filter>Header Files\逻辑对象</Filter>
+    </ClInclude>
+    <ClInclude Include="employdao.h">
+      <Filter>Header Files\业务子系统</Filter>
+    </ClInclude>
+    <ClInclude Include="employ_daofile_impl.h">
+      <Filter>Header Files\业务子系统</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

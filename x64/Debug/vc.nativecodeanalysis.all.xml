@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?><DEFECTS><DEFECT>
+    <SFA>
+      <FILEPATH>D:\TEMP\emis\</FILEPATH>
+      <FILENAME>employ.cpp</FILENAME>
+      <LINE>41</LINE>
+      <COLUMN>14</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>未初始化变量 EMIS::Employ::gender。始终初始化成员变量(type.6)。</DESCRIPTION>
+    <FUNCTION>EMIS::Employ::{ctor}</FUNCTION>
+    <DECORATED>??0Employ@EMIS@@QEAA@XZ</DECORATED>
+    <FUNCLINE>41</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>EMIS::Employ::gender</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\TEMP\emis\</FILEPATH>
+      <FILENAME>manager.cpp</FILENAME>
+      <LINE>31</LINE>
+      <COLUMN>9</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>未初始化变量 EMIS::Manager::id。始终初始化成员变量(type.6)。</DESCRIPTION>
+    <FUNCTION>EMIS::Manager::{ctor}</FUNCTION>
+    <DECORATED>??0Manager@EMIS@@QEAA@XZ</DECORATED>
+    <FUNCLINE>31</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>EMIS::Manager::id</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT></DEFECTS>

@@ -1,0 +1,75 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.33.31630.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///d:/temp/emis/managerserviceimpl.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "ed3c8e87788ef08ab9df2613ce0e7142880029f3aeee256b53df65b4b82f3eb6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/temp/emis/managerserviceimpl.h"
+          },
+          "hashes": {
+            "sha-256": "18c5cbf8f0ba9fef86a40d19352b68181c7845a1fc24dc5356b6ac134684169b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/temp/emis/managerservice.h"
+          },
+          "hashes": {
+            "sha-256": "bfd345e8d9fd83471f7f3a8ad3bc3d3f75619cc41a143f7f96342c264e3702c3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/temp/emis/manager.h"
+          },
+          "hashes": {
+            "sha-256": "1d3833b959071e39932c6e55b9af15df3b6f0f29bd59ed4ce21c6af5b3bd8b14"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/temp/emis/managerdao.h"
+          },
+          "hashes": {
+            "sha-256": "0fe6a4db7d06490b3ef139589105f83c660b9ccba36ccb4fc38b32bebb0b9770"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/temp/emis/managerdaofileimpl.h"
+          },
+          "hashes": {
+            "sha-256": "8d6327d5d3f3ff3611babfda6addff96a5a2c2740a010c3dcf51d11a9e1f8ff9"
+          }
+        }
+      ]
+    }
+  ]
+}

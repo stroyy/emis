@@ -1,0 +1,138 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "未初始化变量 EMIS::Employ::gender。始终初始化成员变量(type.6)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/TEMP/emis/employ.cpp"
+                },
+                "region": {
+                  "startLine": 41,
+                  "startColumn": 15,
+                  "endLine": 41,
+                  "endColumn": 15
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EMIS::Employ::{ctor}",
+                  "decoratedName": "??0Employ@EMIS@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "EMIS::Employ::gender"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "未初始化变量 EMIS::Employ::empID。始终初始化成员变量(type.6)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/TEMP/emis/employ.cpp"
+                },
+                "region": {
+                  "startLine": 41,
+                  "startColumn": 15,
+                  "endLine": 41,
+                  "endColumn": 15
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EMIS::Employ::{ctor}",
+                  "decoratedName": "??0Employ@EMIS@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "EMIS::Employ::empID"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "未初始化变量 EMIS::Employ::age。始终初始化成员变量(type.6)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/TEMP/emis/employ.cpp"
+                },
+                "region": {
+                  "startLine": 41,
+                  "startColumn": 15,
+                  "endLine": 41,
+                  "endColumn": 15
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EMIS::Employ::{ctor}",
+                  "decoratedName": "??0Employ@EMIS@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "EMIS::Employ::age"
+          }
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.33.31630.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///D:/TEMP/emis/employ.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "887dad3dbee1071785eb904f652201dfcbcfea160378f38077a0569e84765c00"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/temp/emis/employ.h"
+          },
+          "hashes": {
+            "sha-256": "c0870e0468e350a67aed0dc36a3d0fba88927c3f57ba21bcb68454d69caa1f48"
+          }
+        }
+      ]
+    }
+  ]
+}

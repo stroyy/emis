@@ -1,0 +1,115 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.33.31630.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///d:/temp/emis/serverviewconsoleimpl.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "2ac24c86748dcc0f4dc1f51e4038ddbb5525880fd06dfa4ec30696f84447b850"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/temp/emis/serverviewconsoleimpl.h"
+          },
+          "hashes": {
+            "sha-256": "e636233bfa8bf3262cdc7b308837ffeab433a402f867b95563dd0edfa6349ef7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/temp/emis/serverview.h"
+          },
+          "hashes": {
+            "sha-256": "3deffcd4cd967b80b86c96f19aa2f5cc74aa47aeff33d92263bf78de08b846f3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/temp/emis/service.h"
+          },
+          "hashes": {
+            "sha-256": "d06ae16f9f9db3ebcfc35a4ceb72b2aef824cde94429f09cdd04c85001858bf9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/temp/emis/department.h"
+          },
+          "hashes": {
+            "sha-256": "224112da8b679af468cf7b0d80d0d89601c4dab38aba9e6645164ee1851b57ca"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/temp/emis/employ.h"
+          },
+          "hashes": {
+            "sha-256": "c0870e0468e350a67aed0dc36a3d0fba88927c3f57ba21bcb68454d69caa1f48"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/temp/emis/service_impl.h"
+          },
+          "hashes": {
+            "sha-256": "df19bce93d99593faae6c4a8b343286361783232beb4bf670786e0ad78127783"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/temp/emis/department_dao.h"
+          },
+          "hashes": {
+            "sha-256": "d6997361706dedbbcb86d6216a09162c752a686c44ad94d3a6d2cbe82b304a28"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/temp/emis/department_daofile_impl.h"
+          },
+          "hashes": {
+            "sha-256": "9f0e58b231552a543eb2c3c69994db772079cac024a7b4bc17d42045a432e4e3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/temp/emis/employ_daofile_impl.h"
+          },
+          "hashes": {
+            "sha-256": "1fdb5c5089e41d776b5f6d9fe72cf09eccd1aa100378b93819dfc398d4c6b088"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/temp/emis/employdao.h"
+          },
+          "hashes": {
+            "sha-256": "f766998331561355257c7485a31dd26809a11989f4d041eecb91feaa0bbc98cb"
+          }
+        }
+      ]
+    }
+  ]
+}
